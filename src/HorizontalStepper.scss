@@ -128,6 +128,10 @@
             padding: 1rem;
           }
         }
+        .clickable-circle {   
+          @extend .circle;
+          cursor: pointer;            
+        }
         .step-title {
           position: absolute;
           top: 90%;

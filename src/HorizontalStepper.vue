@@ -10,8 +10,13 @@
                 </template>
                 <template v-for="(step, index) in steps">
                     <div :class="['step', isStepActive(index, step)]" :key="index" :style="{width: `${100 / steps.length}%`}">
-                        <div class="circle">
-                            <i class="material-icons md-18">
+                         <div v-if="clickableCircles" class="clickable-circle"  @click="activateStep(index)">
+                           <i class="material-icons md-18">
+                                {{ (step.completed) ? 'done' : step.icon }}
+                            </i>
+                        </div>
+                        <div v-else class="circle">
+                           <i class="material-icons md-18">
                                 {{ (step.completed) ? 'done' : step.icon }}
                             </i>
                         </div>
@@ -65,6 +70,10 @@ export default {
       default: "en"
     },
     topButtons: {
+      type: Boolean,
+      default: false
+    },
+    clickableCircles: {
       type: Boolean,
       default: false
     },
