@@ -13,7 +13,7 @@ A simple stepper with simple actions such as next, back and finish to perform si
 ##  Installation
 
 ```
-npm install vue-stepper --save
+npm install codificar-vue-stepper --save
 ```
 
 ##  Properties

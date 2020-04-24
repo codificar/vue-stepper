@@ -1,5 +1,5 @@
 {
-  "name": "vue-stepper",
+  "name": "codificar-vue-stepper",
   "version": "1.4.2",
   "description": "Vue Stepper",
   "main": "src/index.js",
@@ -8,6 +8,8 @@
     "url": "https://github.com/codificar/vue-stepper"
   },
   "keywords": [
+    "codificar-vue-stepper",
+    "codificar",
     "vue",
     "stepper",
     "vue-stepper",
