@@ -1,6 +1,6 @@
 {
   "name": "codificar-vue-stepper",
-  "version": "1.4.2",
+  "version": "1.5",
   "description": "Vue Stepper",
   "main": "src/index.js",
   "repository": {
